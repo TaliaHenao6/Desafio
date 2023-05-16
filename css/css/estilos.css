@@ -55,7 +55,6 @@ font-family: 'Courier New', Courier, monospace;
     font-size: 22px;
 }
 
-
 /*banner*/
 .banner{
     
@@ -205,10 +204,12 @@ font-family: 'Courier New', Courier, monospace;
     margin: 20px;
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
+    transition: all 0.4s;
     
 }
 .service-content h2:hover{
     color: aqua;
+    font-size: 22px;
 
 }
 
@@ -276,12 +277,15 @@ font-family: 'Courier New', Courier, monospace;
     background-color: aqua;
 }
 
+
+/*gallery*/
 .contact2{
 
     padding: 40px 0;
     background-color: black;
     font-family: 'Courier New', Courier, monospace;
     color: #F1F1F2;
+   
 
 }
 
@@ -296,6 +300,12 @@ font-family: 'Courier New', Courier, monospace;
     width: 60%;
     justify-content: right;
     align-items: right;
+
+}
+
+.single-contact2 img :hover{
+    color: aqua;
+
 }
 .single-contact2 input{
     width: 88%;
