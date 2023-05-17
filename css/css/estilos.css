@@ -436,6 +436,10 @@ footer{
         gap: 10px;
         list-style: none;
     }
+    .header__container ul li img {
+        width: 80%;
+        transition: all 0.4s;
+    }
     .single-contact input {
         width: 80%;
 }
@@ -444,6 +448,10 @@ footer{
 }
 }
 @media (max-width: 360px){
+    .header__container ul li img {
+        width: 80%;
+        transition: all 0.4s;
+    }
     .service-content img {
         width: 100%;
         padding: 10%;
